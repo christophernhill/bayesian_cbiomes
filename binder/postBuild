@@ -21,6 +21,9 @@ Pkg.add("Statistics"); Pkg.build("Statistics");
 Pkg.add("Distributions"); Pkg.build("Distributions"); 
 Pkg.add("Random"); Pkg.build("Random")
 Pkg.add("StatsPlots"); Pkg.build("StatsPlots")
+Pkg.add("DifferentialEquations"); Pkg.build("DifferentialEquations")
+Pkg.add("LaTeXStrings"); Pkg.build("LaTeXStrings")
+Pkg.add("Optim"); Pkg.build("Optim")
 EOFA
 
 julia init_julia_env.jl
